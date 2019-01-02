@@ -1,0 +1,6 @@
+ask user for number with 5 digits
+double each digit and add the doubled digits
+num=input("enter a number")
+
+enter a number=8975
+number reversed is:5798

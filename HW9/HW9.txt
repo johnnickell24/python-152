@@ -1,0 +1,6 @@
+1. menu function
+
+2.function stubs for every menu option
+
+3. separate file write and test addRecipe
+	def addRecipe(tmpDict,listIngredients,

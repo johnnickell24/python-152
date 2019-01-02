@@ -1,0 +1,16 @@
+1.create a function
+"""
+pre-condition: string containsa first
+		and last name separated
+		by a space.
+Description: accepts a string and
+	     returns 2 strings --
+	     first name and last name
+"""
+getFirstLastName(strFullName)
+1. look for first space in string
+2. grab everything up to first space
+and store it in firstName
+3. grab everything after the first space
+and store it in lastName
+4.

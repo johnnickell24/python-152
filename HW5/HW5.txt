@@ -1,0 +1,9 @@
+look for comma
+
+else look for spaces
+
+	if 2 spaces
+
+	else one space
+
+

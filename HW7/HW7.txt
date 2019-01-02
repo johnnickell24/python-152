@@ -1,0 +1,57 @@
+allStudents=[ ["Joe", "Smith",4.0]. ["Mary","Brown",3.5]]
+for student in allStudents:
+	print(student)
+-------------------------------------
+fName=input("enter your first name")
+lName=input("enter your last name")
+gpa = float(input("enter your gpa"))
+
+tmpStudent=[ ]
+tmpStudent.append(fName)
+tmpStudent.append(lName)
+tmpStudent.append(gpa)
+
+or
+tmpStudent=list(fName, lName, gpa)
+
+allStudents.append(tmpStudent)
+
+addStudent(allStudents,fName,lName,gpa)
+
+------------------------------------------------------
+getting info into your program:
+1.ask user to input
+
+2.redirect the inpout to look at a myData.txt
+run program, from command line:
+$python hw8.py < myData.txt
+
+3.from a textfile -- this time, use special methods/functions
+instead of input function
+
+4. connect your python program to a database
+
+----------------------------------------------------
+delete function(tmpList, tmpID)
+1.check to make sure list isnt empty
+if it is return unsuccessful
+2.for oneEmp in tmpList:
+	check if oneEmp's id matches tmpID:
+	if it matches, delete that oneEmp from tmpList
+	use tmpList.remove()
+#main
+companyRoster=[]
+if choice == 1:
+	lastName = input("Last Name: ")
+	firstName = input("First Name: ")
+	id = input("Company ID: ")
+	payRate = input("Enter Payrate: ")
+	hours = input("Enter Hours: ")
+result=addEmp(companyRoster,id,lastName,firstName,payRate,hours)
+if result == "Successful":
+	print("Employee successfully added")
+else:
+	print("error -- id was a dupicate")
+-----------------------------------------------------
+elif choice == 2:
+	result = delEmp(companyRoster,203)

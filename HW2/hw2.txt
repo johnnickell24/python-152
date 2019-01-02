@@ -1,0 +1,24 @@
+1. Get info from user
+	ask for ssn
+	ask for last name
+	ask for first name
+	ask for hours
+	ask for payrate
+
+	Python input
+	s - input("please enter a #")
+	hr = int(s)
+
+ssn = input("Social Security Number: ")
+strHrs = input("Hours: )
+hrs = float(strHrs)
+
+2. Processing
+gp=payrate multiplied by hours
+SSN_RATE = .05
+ssnAMT = gp multiplied by SSN_RATE
+
+
+
+
+3. Output
